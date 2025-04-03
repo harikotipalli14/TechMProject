@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SmartGroceryAPI", "SmartGroceryAPI", "{97581BF7-8D79-0E87-F5B4-0A6FB682D8D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartGroceryAPI", "SmartGroceryAPI\SmartGroceryAPI\SmartGroceryAPI.csproj", "{8CA1C591-F7D2-21DF-DBCB-65E05AC1CAF2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8CA1C591-F7D2-21DF-DBCB-65E05AC1CAF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CA1C591-F7D2-21DF-DBCB-65E05AC1CAF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CA1C591-F7D2-21DF-DBCB-65E05AC1CAF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CA1C591-F7D2-21DF-DBCB-65E05AC1CAF2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8CA1C591-F7D2-21DF-DBCB-65E05AC1CAF2} = {97581BF7-8D79-0E87-F5B4-0A6FB682D8D9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9CC64169-6462-4477-9621-40CDC431D202}
+	EndGlobalSection
+EndGlobal
