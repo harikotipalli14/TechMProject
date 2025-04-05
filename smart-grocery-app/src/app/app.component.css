@@ -3,8 +3,8 @@
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #d3fed3;
-    border-radius: 10px;
+    background-color: black;
+    border-radius: 50px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     text-align: center;
   }
@@ -94,6 +94,7 @@
   background-repeat: no-repeat;
   color: rgb(125, 223, 140);
   background-color: #9bf7a0;
+  border-radius: 35px;
   padding: 20px;
 }
 
