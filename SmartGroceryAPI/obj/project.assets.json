@@ -461,19 +461,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\DHARSHITH\\.nuget\\packages\\": {}
+    "C:\\Users\\dell 5400\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\GroceryApp\\SmartGroceryAPI\\SmartGroceryAPI\\SmartGroceryAPI.csproj",
+      "projectUniqueName": "C:\\Users\\dell 5400\\Desktop\\GroceryApp\\SmartGroceryAPI\\SmartGroceryAPI.csproj",
       "projectName": "SmartGroceryAPI",
-      "projectPath": "D:\\GroceryApp\\SmartGroceryAPI\\SmartGroceryAPI\\SmartGroceryAPI.csproj",
-      "packagesPath": "C:\\Users\\DHARSHITH\\.nuget\\packages\\",
-      "outputPath": "D:\\GroceryApp\\SmartGroceryAPI\\SmartGroceryAPI\\obj\\",
+      "projectPath": "C:\\Users\\dell 5400\\Desktop\\GroceryApp\\SmartGroceryAPI\\SmartGroceryAPI.csproj",
+      "packagesPath": "C:\\Users\\dell 5400\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\dell 5400\\Desktop\\GroceryApp\\SmartGroceryAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\DHARSHITH\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\dell 5400\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"

@@ -35,3 +35,40 @@ D:\GroceryApp\SmartGroceryAPI\SmartGroceryAPI\obj\Debug\net9.0\refint\SmartGroce
 D:\GroceryApp\SmartGroceryAPI\SmartGroceryAPI\obj\Debug\net9.0\SmartGroceryAPI.pdb
 D:\GroceryApp\SmartGroceryAPI\SmartGroceryAPI\obj\Debug\net9.0\SmartGroceryAPI.genruntimeconfig.cache
 D:\GroceryApp\SmartGroceryAPI\SmartGroceryAPI\obj\Debug\net9.0\ref\SmartGroceryAPI.dll
+C:\Users\dell 5400\Desktop\GroceryApp\SmartGroceryAPI\bin\Debug\net9.0\appsettings.Development.json
+C:\Users\dell 5400\Desktop\GroceryApp\SmartGroceryAPI\bin\Debug\net9.0\appsettings.json
+C:\Users\dell 5400\Desktop\GroceryApp\SmartGroceryAPI\bin\Debug\net9.0\SmartGroceryAPI.staticwebassets.endpoints.json
+C:\Users\dell 5400\Desktop\GroceryApp\SmartGroceryAPI\bin\Debug\net9.0\SmartGroceryAPI.exe
+C:\Users\dell 5400\Desktop\GroceryApp\SmartGroceryAPI\bin\Debug\net9.0\SmartGroceryAPI.deps.json
+C:\Users\dell 5400\Desktop\GroceryApp\SmartGroceryAPI\bin\Debug\net9.0\SmartGroceryAPI.runtimeconfig.json
+C:\Users\dell 5400\Desktop\GroceryApp\SmartGroceryAPI\bin\Debug\net9.0\SmartGroceryAPI.dll
+C:\Users\dell 5400\Desktop\GroceryApp\SmartGroceryAPI\bin\Debug\net9.0\SmartGroceryAPI.pdb
+C:\Users\dell 5400\Desktop\GroceryApp\SmartGroceryAPI\bin\Debug\net9.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\dell 5400\Desktop\GroceryApp\SmartGroceryAPI\bin\Debug\net9.0\Microsoft.OpenApi.dll
+C:\Users\dell 5400\Desktop\GroceryApp\SmartGroceryAPI\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\dell 5400\Desktop\GroceryApp\SmartGroceryAPI\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\dell 5400\Desktop\GroceryApp\SmartGroceryAPI\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\dell 5400\Desktop\GroceryApp\SmartGroceryAPI\obj\Debug\net9.0\SmartGroceryAPI.csproj.AssemblyReference.cache
+C:\Users\dell 5400\Desktop\GroceryApp\SmartGroceryAPI\obj\Debug\net9.0\SmartGroceryAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dell 5400\Desktop\GroceryApp\SmartGroceryAPI\obj\Debug\net9.0\SmartGroceryAPI.AssemblyInfoInputs.cache
+C:\Users\dell 5400\Desktop\GroceryApp\SmartGroceryAPI\obj\Debug\net9.0\SmartGroceryAPI.AssemblyInfo.cs
+C:\Users\dell 5400\Desktop\GroceryApp\SmartGroceryAPI\obj\Debug\net9.0\SmartGroceryAPI.csproj.CoreCompileInputs.cache
+C:\Users\dell 5400\Desktop\GroceryApp\SmartGroceryAPI\obj\Debug\net9.0\SmartGroceryAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\dell 5400\Desktop\GroceryApp\SmartGroceryAPI\obj\Debug\net9.0\SmartGroceryAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\dell 5400\Desktop\GroceryApp\SmartGroceryAPI\obj\Debug\net9.0\SmartGroceryAPI.sourcelink.json
+C:\Users\dell 5400\Desktop\GroceryApp\SmartGroceryAPI\obj\Debug\net9.0\scopedcss\bundle\SmartGroceryAPI.styles.css
+C:\Users\dell 5400\Desktop\GroceryApp\SmartGroceryAPI\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\dell 5400\Desktop\GroceryApp\SmartGroceryAPI\obj\Debug\net9.0\staticwebassets.development.json
+C:\Users\dell 5400\Desktop\GroceryApp\SmartGroceryAPI\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+C:\Users\dell 5400\Desktop\GroceryApp\SmartGroceryAPI\obj\Debug\net9.0\staticwebassets\msbuild.SmartGroceryAPI.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\dell 5400\Desktop\GroceryApp\SmartGroceryAPI\obj\Debug\net9.0\staticwebassets\msbuild.SmartGroceryAPI.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\dell 5400\Desktop\GroceryApp\SmartGroceryAPI\obj\Debug\net9.0\staticwebassets\msbuild.build.SmartGroceryAPI.props
+C:\Users\dell 5400\Desktop\GroceryApp\SmartGroceryAPI\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.SmartGroceryAPI.props
+C:\Users\dell 5400\Desktop\GroceryApp\SmartGroceryAPI\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.SmartGroceryAPI.props
+C:\Users\dell 5400\Desktop\GroceryApp\SmartGroceryAPI\obj\Debug\net9.0\staticwebassets.pack.json
+C:\Users\dell 5400\Desktop\GroceryApp\SmartGroceryAPI\obj\Debug\net9.0\SmartGro.5A8E9C47.Up2Date
+C:\Users\dell 5400\Desktop\GroceryApp\SmartGroceryAPI\obj\Debug\net9.0\SmartGroceryAPI.dll
+C:\Users\dell 5400\Desktop\GroceryApp\SmartGroceryAPI\obj\Debug\net9.0\refint\SmartGroceryAPI.dll
+C:\Users\dell 5400\Desktop\GroceryApp\SmartGroceryAPI\obj\Debug\net9.0\SmartGroceryAPI.pdb
+C:\Users\dell 5400\Desktop\GroceryApp\SmartGroceryAPI\obj\Debug\net9.0\SmartGroceryAPI.genruntimeconfig.cache
+C:\Users\dell 5400\Desktop\GroceryApp\SmartGroceryAPI\obj\Debug\net9.0\ref\SmartGroceryAPI.dll

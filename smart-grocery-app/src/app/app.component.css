@@ -26,7 +26,9 @@
     color: #60ae63;
     text-shadow: #0b0606 1px 1px 0px;
     font-weight: bold;
-    margin: 0 10px;
+    margin: 0px 10px;
+    padding-left: 70px;
+    padding-right: 70px;
     transition: color 0.3s ease;
     cursor: pointer;
   }
@@ -48,7 +50,22 @@
     margin-top: 30px;
     cursor: pointer;
   }
+  nav button {
+    text-decoration: none;
+    background: none;
+    color: #60ae63;
+    text-shadow: #0b0606 1px 1px 0px;
+    font: inherit;
+    font-weight: bold;
+    padding-left: 70px;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+    cursor: pointer;
+  }
   
+  nav button:hover {
+    color: #0a0b0a;
+  }
   /* Responsive Design */
   @media (max-width: 768px) {
     .container {
@@ -67,4 +84,87 @@
       margin: 0 8px;
     }
   }
+  
+.app-container {
+  min-height: 100vh;
+  /* background: linear-gradient(rgba(0, 0, 50, 0.8), rgba(0, 0, 50, 0.8)), 
+              url('/assets/images/GRC.jpeg');
+  background-size: cover; */
+  background-position: center;
+  background-repeat: no-repeat;
+  color: rgb(125, 223, 140);
+  background-color: #9bf7a0;
+  padding: 20px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+h1 {
+  margin: 0;
+  color: #333;
+}
+
+.header-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+button:nth-child(2) {
+  background-color: #2196F3;
+}
+
+button:nth-child(2):hover {
+  background-color: #0b7dda;
+}
+
+button:nth-child(3) {
+  background-color: #FF9800;
+}
+
+button:nth-child(3):hover {
+  background-color: #e68a00;
+}
+
+main {
+  min-height: 400px;
+}
+
+@media (max-width: 768px) {
+  .app-container {
+    padding: 10px;
+  }
+
+  header {
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+
+  .header-buttons {
+    width: 100%;
+    justify-content: center;
+  }
+}
   

@@ -1,0 +1,9 @@
+@echo off
+echo Installing dependencies...
+call npm install
+echo.
+echo Creating test user...
+call npm run create-user
+echo.
+echo Starting server...
+call npm start 

@@ -10,29 +10,54 @@
       />
     </div>
   
-    <table class="item-table">
+    <!-- Loading indicator -->
+    <div *ngIf="isLoading" class="loading">
+      <p>Loading items...</p>
+    </div>
+  
+    <!-- Error message -->
+    <div *ngIf="errorMessage" class="error-message">
+      <p>{{ errorMessage }}</p>
+    </div>
+  
+    <!-- Items table -->
+    <table class="item-table" *ngIf="!isLoading && filteredItems.length > 0">
       <thead>
         <tr>
           <th>ID</th>
           <th>Item Name</th>
+          <th>Category</th>
           <th>Price</th>
           <th>Quantity</th>
-          <th>Action</th>
+          <th>Buy</th>
         </tr>
       </thead>
       <tbody>
         <tr *ngFor="let item of filteredItems">
           <td>{{ item.id }}</td>
           <td>{{ item.name }}</td>
+          <td [ngClass]="'category-' + item.category.toLowerCase()">{{ item.category }}</td>
           <td>${{ item.price }}</td>
           <td>{{ item.quantity }}</td>
           <td>
-            <button class="delete-btn" (click)="deleteItem(item.id)">
-              Delete
-            </button>
+            <div class="buy-control">
+              <div class="quantity-selector">
+                <button (click)="updateQuantity(item.id, selectedQuantities[item.id] - 1)" class="quantity-btn">-</button>
+                <input type="number" [value]="selectedQuantities[item.id]" min="1" (change)="updateQuantity(item.id, +$any($event).target.value)" class="quantity-input">
+                <button (click)="updateQuantity(item.id, selectedQuantities[item.id] + 1)" class="quantity-btn">+</button>
+              </div>
+              <button class="buy-btn" (click)="buyItem(item)">
+                Buy
+              </button>
+            </div>
           </td>
         </tr>
       </tbody>
     </table>
+  
+    <!-- No items message -->
+    <div *ngIf="!isLoading && filteredItems.length === 0" class="no-items">
+      <p>No items found.</p>
+    </div>
   </div>
   

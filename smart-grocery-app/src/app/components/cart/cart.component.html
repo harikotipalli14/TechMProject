@@ -1,0 +1,59 @@
+<div class="cart-container">
+  <h2>Shopping Cart</h2>
+  
+  <!-- Order confirmation message -->
+  <div *ngIf="orderPlaced" class="order-confirmation">
+    <p>Order placed successfully! Order ID: {{ orderId }}</p>
+  </div>
+  
+  <div *ngIf="cartItems.length === 0" class="empty-cart">
+    <p>Your cart is empty</p>
+  </div>
+  
+  <div *ngIf="cartItems.length > 0" class="cart-items">
+    <table class="cart-table">
+      <thead>
+        <tr>
+          <th>Item</th>
+          <th>Category</th>
+          <th>Price</th>
+          <th>Quantity</th>
+          <th>Subtotal</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let cartItem of cartItems">
+          <td>{{ cartItem.item.name }}</td>
+          <td>{{ cartItem.item.category }}</td>
+          <td>${{ cartItem.item.price.toFixed(2) }}</td>
+          <td>
+            <div class="quantity-control">
+              <button (click)="updateQuantity(cartItem.item.id, cartItem.quantity - 1)" class="quantity-btn">-</button>
+              <input type="number" [value]="cartItem.quantity" min="1" (change)="updateQuantity(cartItem.item.id, +$any($event).target.value)" class="quantity-input">
+              <button (click)="updateQuantity(cartItem.item.id, cartItem.quantity + 1)" class="quantity-btn">+</button>
+            </div>
+          </td>
+          <td>${{ getSubtotal(cartItem).toFixed(2) }}</td>
+          <td>
+            <button (click)="removeItem(cartItem.item.id)" class="remove-btn">Remove</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    
+    <div class="cart-summary">
+      <div class="cart-total">
+        <span>Total Items: {{ itemCount }}</span>
+        <span>Total: ${{ total.toFixed(2) }}</span>
+      </div>
+      <div class="cart-actions">
+        <button (click)="clearCart()" class="clear-cart-btn" [disabled]="isProcessing">Clear Cart</button>
+        <button (click)="placeOrder()" class="place-order-btn" [disabled]="isProcessing">
+          <span *ngIf="!isProcessing">Pay & Place Order</span>
+          <span *ngIf="isProcessing">Processing...</span>
+        </button>
+      </div>
+    </div>
+  </div>
+</div> 

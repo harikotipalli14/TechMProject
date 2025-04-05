@@ -1,0 +1,9 @@
+@echo off
+echo Installing dependencies...
+call npm install express sqlite3 bcrypt dotenv cors
+echo.
+echo Creating test user...
+node create-test-user.js
+echo.
+echo Starting server...
+node server.js 

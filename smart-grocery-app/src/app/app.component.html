@@ -1,11 +1,23 @@
 <!-- <link rel="stylesheet" href="app.component.css"> -->
-<div class="container">
-  <h1>🛒 Smart Grocery App</h1>
-  <nav>
-    <a routerLink="/">Home</a> | 
-    <a routerLink="/items">Grocery Items</a>
-  </nav>
-  <hr />
-  <router-outlet></router-outlet>
+<!-- Add debug output to check status -->
+<!-- <p>showLogin: {{ showLogin }}</p> -->
+
+<div class="app-container">
+  <header>
+    <h1>Smart Grocery App</h1>
+    <div class="header-buttons">
+      <button *ngIf="!showLogin" (click)="toggleLogin()">Login</button>
+      <button *ngIf="!showLogin" (click)="toggleCart()">Cart</button>
+      <button *ngIf="!showLogin" (click)="toggleOrders()">My Orders</button>
+    </div>
+  </header>
+
+  <main>
+    <app-login-page *ngIf="showLogin"></app-login-page>
+    <app-cart *ngIf="showCart"></app-cart>
+    <app-orders *ngIf="showOrders"></app-orders>
+    <router-outlet></router-outlet>
+  </main>
 </div>
+
 
